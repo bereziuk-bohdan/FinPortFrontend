@@ -1,0 +1,41 @@
+export default {
+  app: {
+    name: 'FinPort',
+  },
+  auth: {
+    confirmPassword: 'Підтвердіть пароль',
+    email: 'Електронна пошта',
+    haveAccount: 'Вже маєте обліковий запис?',
+    loggingIn: 'Вхід...',
+    login: 'Увійти',
+    loginFailed: 'Помилка входу',
+    name: "Ім'я",
+    noAccount: 'Немає облікового запису?',
+    password: 'Пароль',
+    register: 'Реєстрація',
+    registerFailed: 'Помилка реєстрації',
+    registering: 'Реєстрація...',
+  },
+  dashboard: {
+    monthlyExpenses: 'Щомісячні витрати',
+    monthlyIncome: 'Щомісячний дохід',
+    portfolioValue: 'Вартість портфеля',
+    title: 'Це ваш огляд фінансів та інвестицій.',
+    totalBalance: 'Загальний баланс',
+    welcome: 'З поверненням, {name}!',
+  },
+  nav: {
+    budget: 'Бюджет',
+    dashboard: 'Панель',
+    language: 'Мова',
+    logout: 'Вийти',
+    portfolios: 'Портфелі',
+    signedInAs: 'Ви увійшли як {email}',
+    stocks: 'Акції',
+  },
+  placeholders: {
+    budget: 'Модуль рахунків, транзакцій і переказів — у розробці.',
+    portfolios: 'Ваші портфелі акцій — у розробці.',
+    stocks: 'Модуль аналізу ринку та котирувань — у розробці.',
+  },
+}

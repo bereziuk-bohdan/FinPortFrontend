@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oxc-project/oxc/main/npm/oxlint/configuration_schema.json",
+  "plugins": ["vue", "import", "unicorn"],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "error",
+    "perf": "warn",
+    "style": "warn",
+    "pedantic": "off",
+    "restriction": "off",
+    "nursery": "off"
+  },
+  "rules": {
+    "no-console": "warn",
+    "no-debugger": "error",
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true }],
+    "eqeqeq": "error",
+    "prefer-const": "error",
+    "vue/define-props-declaration": ["warn", "type-based"],
+    "vue/define-emits-declaration": ["warn", "type-based"],
+    "vue/require-typed-ref": "warn",
+    "vue/prop-name-casing": ["warn", "camelCase"],
+    "vue/component-definition-name-casing": ["warn", "PascalCase"],
+    "vue/no-required-prop-with-default": "warn",
+    "vue/return-in-computed-property": "error",
+    "vue/no-side-effects-in-computed-properties": "error",
+    "import/no-unassigned-import": "off",
+    "import/no-named-as-default-member": "off",
+    "import/group-exports": "off",
+    "import/no-named-export": "off",
+    "import/prefer-default-export": "off",
+    "unicorn/filename-case": "off",
+    "unicorn/no-null": "off",
+    "unicorn/catch-error-name": "off",
+    "unicorn/prefer-code-point": "off"
+  },
+  "ignorePatterns": ["dist", "node_modules", "coverage", ".vite"]
+}

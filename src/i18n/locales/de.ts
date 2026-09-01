@@ -1,0 +1,41 @@
+export default {
+  app: {
+    name: 'FinPort',
+  },
+  auth: {
+    confirmPassword: 'Passwort bestätigen',
+    email: 'E-Mail',
+    haveAccount: 'Bereits ein Konto?',
+    loggingIn: 'Anmeldung läuft...',
+    login: 'Anmelden',
+    loginFailed: 'Anmeldung fehlgeschlagen',
+    name: 'Name',
+    noAccount: 'Noch kein Konto?',
+    password: 'Passwort',
+    register: 'Registrieren',
+    registerFailed: 'Registrierung fehlgeschlagen',
+    registering: 'Registrierung läuft...',
+  },
+  dashboard: {
+    monthlyExpenses: 'Monatliche Ausgaben',
+    monthlyIncome: 'Monatliches Einkommen',
+    portfolioValue: 'Portfoliowert',
+    title: 'Dies ist Ihre Finanz- und Anlageübersicht.',
+    totalBalance: 'Gesamtsaldo',
+    welcome: 'Willkommen zurück, {name}!',
+  },
+  nav: {
+    budget: 'Budget',
+    dashboard: 'Dashboard',
+    language: 'Sprache',
+    logout: 'Abmelden',
+    portfolios: 'Portfolios',
+    signedInAs: 'Angemeldet als {email}',
+    stocks: 'Aktien',
+  },
+  placeholders: {
+    budget: 'Modul für Konten, Transaktionen und Überweisungen — in Arbeit.',
+    portfolios: 'Ihre Aktienportfolios — in Arbeit.',
+    stocks: 'Modul für Marktanalyse und Kurse — in Arbeit.',
+  },
+}

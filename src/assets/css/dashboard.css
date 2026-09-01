@@ -1,0 +1,10 @@
+.dashboard .stat-label {
+  font-size: 0.85rem;
+  color: var(--p-text-muted-color);
+}
+
+.dashboard .stat-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 0.25rem;
+}
